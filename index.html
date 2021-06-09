@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Your Own Sandwich</title>
+</head>
+<body>
+    <nav>
+    <h1>DoorDash</h1>
+    <ul>
+        <li>
+            <a href="https://www.doordash.com">Home Page</a>
+        </li>
+        <li>
+            <a href="https://www.doordash.com">Previous Orders</a>
+        </li>
+    </ul>
+</nav>
+    <h3>Delivery Information</h3>
+    <div>
+        <form>
+            <p>
+                <label>Full Name: <input /></label>
+            </p>
+            <p>
+                <label>Street Address: <input /></label>
+            </p>
+            <p>
+                <label>City: <input /></label>
+            </p>
+            <p>
+                <label>Area Code: <input /></label>
+            </p>
+            <p>
+                <label>Phone #: <input /></label>
+            </p>
+            <p>Credit Card #: </p><input type="number">
+        </form>    
+    </div>
+    <br />
+    <div style="border: solid 5px teal; padding: .8rem;">
+    <h1>Build Your Own Sandwich</h1>
+    <fieldset>
+        <legend>Bread</legend>
+        <p>
+            <input type="radio" name="bread"
+                id="white" value="white" />
+            <label for="white">White</label>
+        </p>
+        <p>
+            <input type="radio" name="bread"
+                id="wheat" value="Wheat" />
+            <label for="wheat">Wheat</label>
+        </p>
+        <p>
+            <input type="radio" name="bread"
+                id="italian" value="italian" />
+            <label for="italian">Italian</label>
+        </p>
+        <p>
+            <input type="radio" name="bread"
+                id="herb" value="herb" />
+            <label for="herb">Herb and Cheddar</label>
+        </p>
+    </fieldset>
+    <br />
+    <fieldset>
+        <legend>Toppings</legend>
+        <p>
+            <input type="checkbox"  name="toppings"
+                id="lettuce" value="lettuce" />
+            <label for="lettuce">Lettuce</label>
+        </p>
+        <p>
+            <input type="checkbox" name="toppings"
+                id="tomato"  value="tomato" />
+            <label for="tomato">Tomato</label>
+        </p>
+        <p>
+            <input type="checkbox" name="toppings"
+                id="onion" value="onion" />
+            <label for="onion">Onion</label>
+        </p>
+        <p>
+            <input type="checkbox" name="toppings"
+                id="mayo" value="mayo" />
+            <label for="mayo">Mayo</label>
+        </p>
+        <p>
+            <input type="checkbox" name="toppings"
+                id="jalapeno" value="jalapeno" />
+            <label for="jalapeno">Jalapeno</label>
+        </p>
+        <p>
+            <input type="checkbox" name="toppings"
+                id="olive" value="olive" />
+            <label for="olive">Black Olives</label>
+        </p>
+        <p>
+            <input type="checkbox" name="toppings"
+                id="turkey" value="turkey" />
+            <label for="turkey">Turkey</label>
+        </p>
+        <p>
+            <input type="checkbox" name="toppings"
+                id="ham" value="ham" />
+            <label for="ham">Ham</label>
+        </p>
+    </fieldset> 
+    <br />
+        <fieldset>
+            <legend>Delivery Instructions</legend>
+            <p>
+                <label for="time">Instructions for your driver:</label>
+                <textarea id="instructions" name="instructions"></textarea>
+            </p>
+            <p>
+                <button type="submit">Submit Order</button>
+            </p>
+    </fieldset>
+    <h2>How to use DoorDash</h2>
+    <p>
+        Here is a tutorial on how to DoorDash!
+    </p>
+    <iframe src="https://www.youtube.com/embed/watch?v=F3uRbXg46vM"
+        frameborder="1"
+        width="300" height="150"
+        allowfullscreen>
+    </iframe>
+</body>
+</html>
